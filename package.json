@@ -1,27 +1,25 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "math-utils",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "description": "A simple npm package providing math utilities",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"No test\""
   },
-  "dependencies": {
-    "express": "^4.16.3"
-  },
+  "devDependencies": {
+    "mathjs": "^4.4.1",
+    "d3": "^5.4.0"
+  }
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/LittleWhole/math-utils"
   },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "math",
+    "utils",
+    "utility"
   ]
 }
