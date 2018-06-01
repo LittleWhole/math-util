@@ -1,6 +1,9 @@
 exports.summation = function(values, operation, start) {
   /**
-   * @param {Array}
+   * @param {Array} values - The array to use.
+   * @param {string} operation - The operation to perform.
+   * @param {number} [start=0] - What value to start at when summation is performed.
+   */
   let result;
   if (!start) result = 0;
   else result = start;
@@ -40,3 +43,5 @@ exports.summation = function(values, operation, start) {
   // Return the result
   return result;
 }
+
+exports.sin = 
