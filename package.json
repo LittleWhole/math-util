@@ -1,5 +1,5 @@
 {
-  "name": "math-utils",
+  "name": "math-utilities",
   "version": "0.0.1-alpha",
   "description": "A simple npm package providing math utilities",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://github.com/LittleWhole/math-utils"
+    "url": "https://github.com/LittleWhole/math-util"
   },
   "license": "MIT",
   "keywords": [
