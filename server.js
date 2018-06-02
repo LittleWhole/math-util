@@ -1,7 +1,7 @@
 /**
  * Use summation on an array, with a specified operation.
  * @param {Array} values - The array to use.
- * @param {String} operation - The operation to perform.
+ * @param {String} [operation="addition"] - The operation to perform.
  * @param {Number} [start=0] - What value to start at when summation is performed.
  */
 exports.summation = function(values, operation, start) {
@@ -48,7 +48,7 @@ exports.summation = function(values, operation, start) {
 
 /**
  * The trigonometric sine function, calculates using degrees.
- * @param {Number}
+ * @type {Number}
  */
 exports.sin = function(value) {
   return Math.sin(value * Math.PI / 180.0);
@@ -56,7 +56,7 @@ exports.sin = function(value) {
 
 /**
  * The trigonometric cosine function, calculates using degrees.
- * @param {Number}
+ * @type {Number}
  */
 exports.cos = function(value) {
   return Math.cos(value * Math.PI / 180.0);
@@ -64,7 +64,7 @@ exports.cos = function(value) {
 
 /**
  * The trigonometric tangent function, calculates using degrees.
- * @param {Number}
+ * @type {Number}
  */
 exports.tan = function(value) {
   return Math.tan(value * Math.PI / 180.0);
@@ -72,7 +72,7 @@ exports.tan = function(value) {
 
 /**
  * The trigonometric cotangent function, calculates using degrees.
- * @param {Number}
+ * @type {Number}
  */
 exports.cot = function(value) {
   return 1 / Math.tan(value * Math.PI / 180.0);
@@ -80,7 +80,7 @@ exports.cot = function(value) {
 
 /**
  * The trigonometric cotangent function, calculates using radians.
- * @param {Number}
+ * @type {Number}
  */
 exports.cotRad = function(value) {
   return 1 / Math.tan(value);
@@ -88,7 +88,7 @@ exports.cotRad = function(value) {
 
 /**
  * The trigonometric secant function, calculates using degrees.
- * @param {Number}
+ * @type {Number}
  */
 exports.sec = function(value) {
   return 1 / Math.cos(value * Math.PI / 180.0);
@@ -96,7 +96,7 @@ exports.sec = function(value) {
 
 /**
  * The trigonometric secant function, calculates using radians.
- * @param {Number}
+ * @type {Number}
  */
 exports.secRad = function(value) {
   return 1 / Math.cos(value);
@@ -104,7 +104,7 @@ exports.secRad = function(value) {
 
 /**
  * The trigonometric cosecant function, calculates using degrees.
- * @param {Number}
+ * @type {Number}
  */
 exports.csc = function(value) {
   return 1 / Math.sin(value * Math.PI / 180.0);
@@ -112,7 +112,7 @@ exports.csc = function(value) {
 
 /**
  * The trigonometric cosecant function, calculates using radians.
- * @param {Number}
+ * @type {Number}
  */
 exports.cscRad = function(value) {
   return 1 / Math.sin(value)
