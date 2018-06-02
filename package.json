@@ -1,6 +1,6 @@
 {
   "name": "math-utilities",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha.1",
   "description": "A simple npm package providing math utilities",
   "main": "index.js",
   "scripts": {
