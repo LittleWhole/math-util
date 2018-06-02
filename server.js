@@ -48,7 +48,7 @@ exports.summation = function(values, operation, start) {
 
 /**
  * The trigonometric sine function, calculates using degrees.
- * @type {Number}
+ * @param {Number}
  */
 exports.sin = function(value) {
   return Math.sin(value * Math.PI / 180.0);
@@ -56,7 +56,7 @@ exports.sin = function(value) {
 
 /**
  * The trigonometric cosine function, calculates using degrees.
- * @type {Number}
+ * @param {Number}
  */
 exports.cos = function(value) {
   return Math.cos(value * Math.PI / 180.0);
@@ -64,7 +64,7 @@ exports.cos = function(value) {
 
 /**
  * The trigonometric tangent function, calculates using degrees.
- * @type {Number}
+ * @param {Number}
  */
 exports.tan = function(value) {
   return Math.tan(value * Math.PI / 180.0);
@@ -72,7 +72,7 @@ exports.tan = function(value) {
 
 /**
  * The trigonometric cotangent function, calculates using degrees.
- * @type {Number}
+ * @param {Number}
  */
 exports.cot = function(value) {
   return 1 / Math.tan(value * Math.PI / 180.0);
@@ -80,7 +80,7 @@ exports.cot = function(value) {
 
 /**
  * The trigonometric cotangent function, calculates using radians.
- * @type {Number}
+ * @param {Number}
  */
 exports.cotRad = function(value) {
   return 1 / Math.tan(value);
@@ -112,7 +112,7 @@ exports.csc = function(value) {
 
 /**
  * The trigonometric cosecant function, calculates using radians.
- * @type {Number}
+ * @param {Number}
  */
 exports.cscRad = function(value) {
   return 1 / Math.sin(value)
