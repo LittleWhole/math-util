@@ -51,7 +51,7 @@ exports.summation = function(values, operation, start) {
  * @param {Number}
  */
 exports.sin = function(value) {
-  return console.log(Math.sin(value * Math.PI / 180.0));
+  return Math.sin(value * Math.PI / 180.0);
 }
 
 /*
@@ -59,4 +59,53 @@ exports.sin = function(value) {
  * @param {Number}
  */
 exports.cos = function(value) {
-  console.log(Math.cos(value * Math.PI / 180.0));
+  return Math.cos(value * Math.PI / 180.0);
+}
+
+/*
+ * The trigonometric tangent function, calculates using degrees.
+ * @param {Number}
+ */
+exports.tan = function(value) {
+  return Math.tan(value * Math.PI / 180.0);
+}
+
+/*
+ * The trigonometric cotangent function, calculates using degrees.
+ * @param {Number}
+ */
+exports.cot = function(value) {
+  return 1 / Math.tan(value * Math.PI / 180.0);
+}
+
+/*
+ * The trigonometric cotangent function, calculates using radians.
+ * @param {Number}
+ */
+exports.cotRad = function(value) {
+  return 1 / Math.tan(value);
+}
+
+/*
+ * The trigonometric secant function, calculates using degrees.
+ * @param {Number}
+ */
+exports.sec = function(value) {
+  return 1 / Math.cos(value * Math.PI / 180.0);
+}
+
+/*
+ * The trigonometric secant function, calculates using radians.
+ * @param {Number}
+ */
+exports.secRad = function(value) {
+  return 1 / Math.cos(value);
+}
+
+/*
+ * The trigonometric cosecant function, calculates using degrees.
+ * @param {Number}
+ */
+exports.csc = function(value) {
+  return 1 / Math.sin(value * Math.PI / 180.0);
+}
