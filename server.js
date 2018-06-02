@@ -109,3 +109,11 @@ exports.secRad = function(value) {
 exports.csc = function(value) {
   return 1 / Math.sin(value * Math.PI / 180.0);
 }
+
+/*
+ * The trigonometric cosecant function, calculates using radians.
+ * @param {Number}
+ */
+exports.cscRad = function(value) {
+  return 1 / Math.sin(value)
+}

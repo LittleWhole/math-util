@@ -1,6 +1,6 @@
 {
   "name": "math-utils",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "description": "A simple npm package providing math utilities",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "devDependencies": {
     "mathjs": "^4.4.1",
     "d3": "^5.4.0"
-  }
+  },
   "engines": {
     "node": "8.x"
   },
