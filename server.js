@@ -1,11 +1,13 @@
+/**
+ * Use summation on an array, with a specified operation.
+ * @param {Array} values - The array to use.
+ * @param {String} operation - The operation to perform.
+ * @param {Number} [start=0] - What value to start at when summation is performed.
+ */
 exports.summation = function(values, operation, start) {
-  /**
-   * @param {Array} values - The array to use.
-   * @param {string} operation - The operation to perform.
-   * @param {number} [start=0] - What value to start at when summation is performed.
-   */
   let result;
   if (!start) result = 0;
+  if (!operation) operation = "addition";
   else result = start;
   if (operation == "addition") {
     values.forEach(value => {
@@ -44,4 +46,17 @@ exports.summation = function(values, operation, start) {
   return result;
 }
 
-exports.sin = 
+/*
+ * The trigonometric sine function, calculates using degrees.
+ * @param {Number}
+ */
+exports.sin = function(value) {
+  return console.log(Math.sin(value * Math.PI / 180.0));
+}
+
+/*
+ * The trigonometric cosine function, calculates using degrees.
+ * @param {Number}
+ */
+exports.cos = function(value) {
+  console.log(Math.cos(value * Math.PI / 180.0));
